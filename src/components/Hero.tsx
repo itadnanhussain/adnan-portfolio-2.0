@@ -45,7 +45,7 @@ export default function Hero() {
   };
 
   const btnClass =
-    "soft-button mx-auto w-full sm:w-auto px-6 py-3 shadow-md";
+    "soft-button mx-auto w-full px-4 py-2.5 shadow-md";
 
   return (
     <section
@@ -139,10 +139,10 @@ export default function Hero() {
           </p>
 
           {/* CTA buttons */}
-          <div className="hero-btns grid w-full max-w-[27rem] grid-cols-1 justify-items-center gap-3 sm:grid-cols-2 sm:gap-3.5">
+          <div className="hero-btns grid w-full max-w-[26rem] grid-cols-1 justify-items-center gap-2.5 sm:grid-cols-2 sm:gap-3">
             <MagneticButton
               containerClassName="flex w-full justify-center"
-              className={`${btnClass} w-full max-w-[17rem] bg-transparent hover:opacity-90`}
+              className={`${btnClass} max-w-[16rem] bg-transparent hover:opacity-90`}
               style={{ color: "var(--text-primary)" }}
               onClick={() =>
                 window.open(
@@ -156,7 +156,7 @@ export default function Hero() {
             </MagneticButton>
             <MagneticButton
               containerClassName="flex w-full justify-center"
-              className={`${btnClass} w-full max-w-[17rem] border-transparent`}
+              className={`${btnClass} max-w-[16rem] border-transparent`}
               style={{ background: "var(--accent-primary)", color: "#fff" }}
               onClick={() => {
                 document
@@ -169,7 +169,7 @@ export default function Hero() {
             <a
               href="/resume.pdf"
               download="Md_Adnan_Hussain_Resume.pdf"
-              className="col-span-1 mx-auto inline-flex w-full max-w-[17rem] items-center justify-center gap-2 rounded-full border border-[var(--border-color)] px-5 py-3 text-center text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:border-[var(--accent-primary)] hover:text-[var(--text-primary)] sm:col-span-2 sm:w-auto sm:min-w-[13rem]"
+              className="col-span-1 mx-auto inline-flex w-full max-w-[16rem] items-center justify-center gap-2 rounded-full border border-[var(--border-color)] px-4 py-2.5 text-center text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:border-[var(--accent-primary)] hover:text-[var(--text-primary)] sm:col-span-2 sm:w-auto sm:min-w-[12rem]"
               onClick={playClick}
             >
               <svg

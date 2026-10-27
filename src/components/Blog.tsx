@@ -16,10 +16,10 @@ export default function Blog() {
       className="mx-auto w-full max-w-6xl scroll-mt-32 px-4 py-20 sm:px-6 sm:py-24"
     >
       <header className="mx-auto mb-10 max-w-3xl text-center sm:mb-12">
-        <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--text-muted)] sm:text-xs">
+        <p className="section-label">
           📝 Technical writing &amp; project notes
         </p>
-        <h2 className="title mt-2 text-3xl font-black leading-tight text-[var(--text-primary)] sm:text-5xl">
+        <h2 className="section-title title mt-2">
           Engineering Blog
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[var(--text-secondary)] sm:text-base">

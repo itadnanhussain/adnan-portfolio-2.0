@@ -89,11 +89,11 @@ export default function Contact() {
       </p>
 
       {/* Contact cards grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto mb-8">
+      <div className="mx-auto mb-8 grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
         {CONTACT_LIST.map((item) => (
           <div
             key={item.id}
-            className="surface-card flex flex-col justify-between p-6 group"
+            className="surface-card group flex flex-col justify-between p-6 sm:p-7"
           >
             <div>
               <div className="flex items-center justify-between mb-4">

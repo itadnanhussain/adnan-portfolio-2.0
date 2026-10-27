@@ -263,7 +263,7 @@ export default function Experience() {
         </div>
 
         <div
-          className="relative mb-5 grid grid-cols-2 gap-3 rounded-2xl border border-[var(--border-color)] p-3 sm:grid-cols-4 sm:p-4"
+          className="relative mb-5 grid grid-cols-2 gap-3 rounded-2xl border border-[var(--border-color)] p-4 sm:grid-cols-4 sm:gap-4 sm:p-5"
           style={{ background: "var(--bg-secondary)" }}
         >
           {[
@@ -274,7 +274,8 @@ export default function Experience() {
           ].map((metric) => (
             <div
               key={metric.label}
-              className="min-w-0"
+              className="flex min-h-20 min-w-0 flex-col justify-center rounded-xl border border-[var(--border-color)] p-3 sm:min-h-24 sm:p-4"
+              style={{ background: "var(--bg-card)" }}
             >
               <p
                 className="truncate font-mono text-lg font-bold sm:text-xl"

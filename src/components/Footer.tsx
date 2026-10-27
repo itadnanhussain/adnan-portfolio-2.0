@@ -1,7 +1,7 @@
 "use client";
 
 import MagneticButton from "./MagneticButton";
-import { ArrowUpIcon } from "./Icons";
+import { ArrowUpIcon, GithubIcon, MailIcon } from "./Icons";
 import { useTheme } from "./ThemeProvider";
 
 const NAV_LINKS = [
@@ -102,7 +102,7 @@ export default function Footer() {
         <div className="h-px w-full bg-[var(--border-color)]" />
 
         {/* Bottom row */}
-        <div className="flex w-full flex-col gap-3 text-center font-mono text-[10px] text-[var(--text-muted)] sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:text-left sm:text-xs">
+        <div className="grid w-full grid-cols-1 items-center gap-4 text-center font-mono text-[10px] text-[var(--text-muted)] sm:grid-cols-[1fr_auto_1fr] sm:text-left sm:text-xs">
           <p className="leading-relaxed">
             Built with{" "}
             <span className="text-[var(--accent-primary)]">Next.js 16</span>,{" "}
@@ -112,6 +112,26 @@ export default function Footer() {
             </span>{" "}
             &amp; <span className="text-[var(--accent-primary)]">GSAP</span>
           </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 sm:justify-center">
+            <a
+              href="mailto:itadnanhussain@gmail.com"
+              onClick={playClick}
+              className="inline-flex items-center gap-2 whitespace-nowrap transition-colors hover:text-[var(--text-primary)]"
+            >
+              <MailIcon className="h-3.5 w-3.5 shrink-0" />
+              <span>itadnanhussain@gmail.com</span>
+            </a>
+            <a
+              href="https://github.com/itadnanhussain"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={playClick}
+              className="inline-flex items-center gap-2 whitespace-nowrap transition-colors hover:text-[var(--text-primary)]"
+            >
+              <GithubIcon className="h-3.5 w-3.5 shrink-0" />
+              <span>GitHub</span>
+            </a>
+          </div>
           <p className="leading-relaxed">
             © 2026{" "}
             <span className="text-[var(--text-secondary)] font-semibold">
