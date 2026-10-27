@@ -1,22 +1,23 @@
 <div align="center">
 
+  <!-- Profile Image with GitHub-supported rounded wrapper -->
   <a href="https://adnan-portfolio-2-0.vercel.app">
-    <img src="./public/images/adnan-hussain.png" alt="Md. Adnan Hussain" width="180" height="180" style="border-radius: 50%; object-fit: cover; border: 4px solid #3178c6;" />
+    <img src="./public/images/adnan-hussain.png" alt="Md. Adnan Hussain" width="160" height="160" style="border-radius: 50%; object-fit: cover; border: 3px solid #3178c6;" />
   </a>
 
   # Md. Adnan Hussain
   ### **Full-Stack Web Developer** · *Sylhet, Bangladesh*
 
-  [![Portfolio](https://img.shields.io/badge/Portfolio-adnanhussain.dev-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://adnan-portfolio-2-0.vercel.app)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adnan_Hussain-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/itadnanhussain/)
-  [![Email](https://img.shields.io/badge/Email-itadnanhussain-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:itadnanhussain@gmail.com)
+  <a href="https://adnan-portfolio-2-0.vercel.app"><img src="https://img.shields.io/badge/Portfolio-adnanhussain.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/itadnanhussain/"><img src="https://img.shields.io/badge/LinkedIn-Adnan_Hussain-0A66C2?style=for-the-badge&logo=linkedin" /></a>
+  <a href="mailto:itadnanhussain@gmail.com"><img src="https://img.shields.io/badge/Email-itadnanhussain-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-  <br />
+  <br /><br />
 
   <p align="center">
     <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js 16" />
     <img src="https://img.shields.io/badge/React_19-149eca?style=flat-square&logo=react&logoColor=white" alt="React 19" />
-    <img src="https://img.shields.io/badge/TypeScript_5-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript 5" />
+    <img src="https://img.shields.io/badge/TypeScript_5-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript 5" id="ts-badge" />
     <img src="https://img.shields.io/badge/Tailwind_CSS_4-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4" />
     <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
   </p>
